@@ -65,6 +65,13 @@ GEM
     childprocess (0.3.5)
       ffi (~> 1.0, >= 1.0.6)
     coderay (1.0.6)
+    coffee-rails (3.2.2)
+      coffee-script (>= 2.2.0)
+      railties (~> 3.2.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.4.0)
     columnize (0.3.6)
     crack (0.3.1)
     css_parser (1.2.6)
@@ -296,6 +303,7 @@ GEM
     turbo-sprockets-rails3 (0.2.12)
       railties (>= 3.1.0, < 3.2.9)
       sprockets (>= 2.0.0)
+    turbolinks (0.5.1)
     tzinfo (0.3.33)
     uglifier (1.2.7)
       execjs (>= 0.3.0)
@@ -328,6 +336,7 @@ DEPENDENCIES
   campy
   capistrano
   capybara
+  coffee-rails (~> 3.2.1)
   database_cleaner (~> 0.6.0)
   debugger
   devise (~> 1.5.3)
@@ -364,6 +373,7 @@ DEPENDENCIES
   thin
   timecop
   turbo-sprockets-rails3
+  turbolinks
   uglifier (>= 1.0.3)
   underscore-rails
   unicorn
