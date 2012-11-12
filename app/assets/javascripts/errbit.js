@@ -135,5 +135,9 @@ $(function() {
     e.preventDefault();
   });
 
-  init();
+  $(document).ready(function(){
+    init();
+  });
+
+
 });

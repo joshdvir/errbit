@@ -111,3 +111,7 @@ end
 gem 'turbo-sprockets-rails3'
 
 gem 'turbolinks'
+gem 'jquery-turbolinks'
+
+
+

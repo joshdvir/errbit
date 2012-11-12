@@ -1,6 +1,8 @@
 $(function(){
-  activateNestedForms();
-  activateCheckboxHooks();
+  $(document).ready(function(){
+    activateNestedForms();
+    activateCheckboxHooks();
+  });
 
   if($('div.watcher.nested').length)
     activateTypeSelector('watcher');
